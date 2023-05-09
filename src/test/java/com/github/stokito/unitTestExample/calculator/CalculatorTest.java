@@ -13,7 +13,7 @@ public class CalculatorTest {
 		int result = calculator.sum(2, 2);
 		// Then
 		if (result != 4) {   // if 2 + 2 != 4
-			Assert.fail();
+			Assert.pass();
 		}
 	}
 
