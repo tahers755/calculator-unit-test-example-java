@@ -18,7 +18,9 @@ public class CalculatorTest {
     @Test
     public void testMinus() {
         Calculator calculator = new Calculator();
-        Assert.assertEquals(0, calculator.minus(2, 2));
+        int result = calculator.minus(2, 2);
+        System.out.println("result: " + result);
+        Assert.assertEquals(0, result);
     }
 
     @Test
@@ -33,4 +35,3 @@ public class CalculatorTest {
         calculator.divide(6, 0);
     }
 }
-
